@@ -1,7 +1,8 @@
 *{
 margin: 0%;
 padding: 0%;
-box-sizing: border-box;}
+box-sizing: border-box;
+}
 
 html{
     scroll-behavior: smooth;
@@ -23,6 +24,7 @@ header{
     padding: 10px;
     background-color:rgba(255, 255, 255, 0.05);
     color: #d4af37;
+    flex-wrap:wrap;
 }
 
 .logo{
@@ -40,6 +42,7 @@ header{
     background-color: #0f172a;
     position: sticky;
     top: 0;
+    flex-wrap:wrap;
 }
 
 nav a{
@@ -92,6 +95,9 @@ button:hover{
 }
 
 /*skills*/
+#skill{
+    flex-wrap:wrap;
+}
 
 #skills p{
     border: rgba(255,255,255,0.1) 1px solid;
