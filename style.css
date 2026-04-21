@@ -1,0 +1,146 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+background: #0f172a;
+color: #fff; 
+line-height: 30px
+}
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.05);
+    color: #d4af37;
+}
+
+.logo{
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 50%;
+}
+
+/*navigation bar*/
+
+.navlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: #0f172a;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    border: 1px solid rgba(255,255,255,0.1);
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.05);
+    color: #d4af37;
+}
+
+nav a:hover{
+    color: #fff;
+    background-color: #d4af37;
+}
+
+/*section*/
+
+section{
+    border: #0f172a 2px solid;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 50px 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    
+}
+ 
+section h2{
+    color: #d4af37;
+    font-size: 28px;
+}
+
+
+/*button*/
+button{
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #d4af37, #facc15);
+    color: #020617;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+       
+button:hover{
+    box-shadow: 0 0 15px #d4af37;
+    transform: scale(1.05);
+}
+
+/*skills*/
+
+#skills p{
+    border: rgba(255,255,255,0.1) 1px solid;
+    border-radius: 10px;
+    display: inline;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color:rgba(255, 255, 255, 0.05) ;
+    color: #d4af37;
+}
+
+/*project*/
+
+#project p{
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    text-decoration: none;
+    color:white;
+    transition: 0.2s;
+}
+
+#project p:hover{
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+#project a{
+    text-decoration: none;
+    color: #d4af37;
+    padding: 5px 10px;
+}
+
+/*contact*/
+
+#contact a{
+    margin:10px;
+    font-size:30px;
+}
+
+i{
+color:white;
+}
+
+
+footer{
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px 0;
+}
